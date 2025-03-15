@@ -1,0 +1,43 @@
+/* Custom styles for Ocean Health Intelligence Platform */
+
+.health-indicator {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.health-indicator.coral {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.health-indicator.plastic {
+    background: linear-gradient(135deg, #5691c8, #457fca);
+}
+
+/* Dashboard container styling */
+.dash-container {
+    background-color: #193446;
+    padding: 20px;
+}
+
+/* Card styling */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+    background-color: #1a4a5e;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
