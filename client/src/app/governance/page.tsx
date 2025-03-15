@@ -164,10 +164,6 @@ export default function GovernancePage() {
                   <div className="text-3xl font-bold text-blue-400">{tokenBalance} OCEAN</div>
                   <div className="text-sm text-slate-400">Voting Power: {tokenBalance} votes</div>
                 </div>
-                <div>
-                  <div className="text-sm text-slate-400">Contract Address</div>
-                  <div className="text-sm font-medium">0xD74a7CDaE05152497D06a139C867FaD088123879</div>
-                </div>
               </div>
             </CardContent>
           </Card>
