@@ -6,7 +6,7 @@ import { gsap } from "gsap";
 import Lenis from "lenis";
 import { ArrowRight, Globe } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import OceanVisualization from "@/components/ocean-visualization"
+// import OceanVisualization from "@/components/ocean-visualization"
 import FeatureSection from "@/components/feature-section"
 import DashboardPreview from "@/components/dashboard-preview"
 import MarketplacePreview from "@/components/marketplace-preview"
@@ -93,7 +93,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden">
-        <OceanVisualization />
+        {/* <OceanVisualization /> */}
         <div className="container relative z-10 mx-auto px-4 py-24 text-center">
           <h1 className="mb-6 text-5xl font-bold leading-tight md:text-7xl">
             Protecting Our Oceans <br />
