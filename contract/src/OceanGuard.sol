@@ -3,7 +3,7 @@ pragma solidity ^0.8.17;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 
 contract OceanGuard is ERC20, Ownable, ReentrancyGuard {
     enum ProjectType { PLASTIC_REMOVAL, REEF_RESTORATION, CARBON_SEQUESTRATION }
